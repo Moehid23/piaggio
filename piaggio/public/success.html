@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piagio</title>
+    <link rel="stylesheet" href="frontend/library/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/library/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/library/gijgo/css/gijgo.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/style/main.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <div class="container">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a href="index.html" class="navbar-brand">
+            <img src="frontend/img/logo.png">
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp;Let's Go Beyond Of The World</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+<!-- footer -->
+    <script src="frontend/library/jquery/jquery-3.6.1.min.js"></script>
+    <script src="frontend/library/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="frontend/library/retina/retina.min.js"></script>
+    <script src="frontend/library/xzoom/xzoom.min.js"></script>
+    <script src="frontend/library/gijgo/js/gijgo.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          xoffset: 15
+        });
+        $('.datepicker').datepicker({
+          uilibrary:'bootstrap4',
+          icons:{
+            rightIcons:'<img src="frotend/img/calendar.png"/>'
+          }
+        });
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,434 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #071C4D;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 80px;
+  border-radius: 10;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #1E3771;
+  color: #fff;
+}
+
+header {
+  padding: 200px 0 165px;
+  margin-top: -80px;
+  background-image: url(../img/home1-01\ \(1\).jpg);
+  background-size: cover;
+}
+header h1, header p {
+  color: #fff;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+header p {
+  font-size: 22px;
+}
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -60px;
+}
+.section-stats .stats-detail {
+  padding-top: 20px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+.section-popular .section-popular-heading {
+  margin-top: 125px;
+}
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+.section-popular .section-popular-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-vehicles .card-vehicles {
+  min-height: 380px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.section-popular-content .section-popular-vehicles .vehicles-name {
+  font-size: 20px;
+  color: #fff;
+}
+.section-popular-content .section-popular-vehicles .vehicles-button .btn-vehicles-details {
+  background-color: #FF9E53;
+  color: #fff;
+}
+.section-popular-content .section-popular-vehicles .vehicles-button .btn-vehicles-details:hover {
+  background-color: #FFAE6F;
+  color: #fff;
+}
+
+.section-brands {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+.section-brands h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-brands p {
+  font-size: 18px;
+}
+.section-brands img {
+  max-width: 50%;
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 507px;
+}
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  margin-bottom: 50px;
+}
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 300px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content img {
+  max-width: 100%;
+}
+.section-testimonial-content .card-testimonial .testimonial-content h3 {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content .testimonial {
+  font-weight: 200;
+  font-size: 20px;
+  color: #6e6e6e;
+  min-height: 150px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content .vehicles-to {
+  font-weight: normal;
+  font-size: 26px;
+  color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial .testimonial-content hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.section-testimonial-content .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #FFAE6F;
+  color: #fff;
+}
+.section-testimonial-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+}
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #FAFAFA;
+  color: #C3C3C3;
+}
+
+.section-footer .btn-email {
+  border-radius: 0;
+}
+.section-footer .btn-submit {
+  margin-top: -5px;
+  border-radius: 0;
+  background-color: #FF9E53;
+  color: #fff;
+}
+.section-footer .btn-submit:hover {
+  background-color: #FFAE6F;
+  color: #fff;
+}
+.section-footer .btn-piaggio-com {
+  border-radius: 0;
+  background-color: #071C4D;
+  color: #fff;
+}
+.section-footer .btn-piaggio-com:hover {
+  background-color: #1E3771;
+  color: #fff;
+}
+.section-footer .warna {
+  color: #071C4D;
+}
+.section-footer .customer {
+  font-size: 75%;
+  color: #FF9E53;
+}
+.section-footer .info {
+  font-family: sans-serif;
+}
+.section-footer .info .tel {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.section-footer .time {
+  font-family: sans-serif;
+  margin-top: -15px;
+}
+.section-footer .img {
+  margin-top: -20px;
+  max-width: 70%;
+}
+
+.section-footer .col-auto {
+  font-size: 10px;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -80px;
+}
+
+.section-details-content {
+  margin-top: -200px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+.section-details-content .card-details h2 {
+  font-size: 26px;
+}
+.section-details-content .card-details h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #071C4D;
+}
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+}
+.section-details-content .card-details .vehicle-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+.section-details-content .card-details .vehicle-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+.section-details-content .card-details .vehicle-informations .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+.section-details-content .card-details .vehicle-informations .text-orange {
+  color: #ff9E53;
+  font-weight: bold;
+}
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+.section-details-content .card-details .bank .bank-item .descriptions {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .card-details .bank .bank-item .descriptions p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071C4D;
+}
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+.section-details-content .card-details .btn-add-now {
+  background-color: #071C4D;
+  color: #fff;
+}
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #1B3B86;
+  color: #fff;
+}
+.section-details-content .card-details .features {
+  margin-top: 20px;
+}
+.section-details-content .card-details .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+.section-details-content .card-details .features p {
+  margin-bottom: 0;
+}
+.section-details-content .card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .card-details .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .card-details .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  box-shadow: none;
+}
+.section-details-content .members .member-image {
+  width: 40px;
+  height: 40px;
+}
+.section-details-content .checkout-container {
+  margin-top: -16px;
+}
+.section-details-content .btn-checkout-now {
+  background-color: #FF9E53;
+  color: #fff;
+  border-radius: 0;
+}
+.section-details-content .btn-checkout-now:hover {
+  background-color: #FFB57c;
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071C4D;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.btn-home-page {
+  border-radius: 4px;
+  background-color: #071C4D;
+  color: #fff;
+}
+.btn-home-page:hover {
+  background-color: #1B3B86;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */

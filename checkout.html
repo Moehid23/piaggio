@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piagio</title>
+    <link rel="stylesheet" href="frontend/library/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/library/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/library/gijgo/css/gijgo.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/style/main.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <div class="container">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a href="index.html" class="navbar-brand">
+            <img src="frontend/img/logo.png">
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp;Let's Go Beyond Of The World</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+<main>
+  <section class="section-details-header"></section>
+  <section class="section-details-content">
+    <div class="container">
+      <div class="row">
+        <div class="col p-0">
+          <nav>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                Most Popular Vehicles
+              </li>
+              <li class="breadcrumb-item">
+                Details
+              </li>
+              <li class="breadcrumb-item active">
+                Checkout
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <!-- details -->
+        <div class="col-lg-8 pl-lg-0">
+          <div class="card card-details">
+            <h1>Your Items Checkout</h1>
+            <p>Vehicle & Accesories</p>
+            <div class="attendee">
+              <table class="table table-responsive-sm text-center">
+                <thead>
+                  <tr>
+                    <td>Picture</td>
+                    <td>Name</td>
+                    <td>Type</td>
+                    <td>Machine</td>
+                    <td>Discount</td>
+                    <td></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="frontend/img/11zon_cropped (1).png" class="rounded-circle" height="60">
+                    </td>
+                    <td class="align-middle">
+                      Vespa x Justin Beiber
+                    </td>
+                    <td class="align-middle">
+                      Vespa Sprint
+                    </td>
+                    <td class="align-middle">
+                      150cc
+                    </td>
+                    <td class="align-middle">
+                      None
+                    </td>
+                    <td class="align-middle">
+                      <img src="frontend/img/closed.png" width="20px">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="frontend/img/black-vulcano-top-box-large-body.png" height="60">
+                    </td>
+                    <td class="align-middle">
+                      Accesories
+                    </td>
+                    <td class="align-middle">
+                      Top Box Large (Incl. Rear Carrier)
+                    </td>
+                    <td class="align-middle">
+                      none
+                    </td>
+                    <td class="align-middle">
+                      10%
+                    </td>
+                    <td class="align-middle">
+                      <img src="frontend/img/closed.png" width="20px">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="frontend/img/helmet (1).png" height="60">
+                    </td>
+                    <td class="align-middle">
+                      Accesories
+                    </td>
+                    <td class="align-middle">
+                      HELMET VESPA FF HERITAGE BIANCO
+                    </td>
+                    <td class="align-middle">
+                      none
+                    </td>
+                    <td class="align-middle">
+                      5%
+                    </td>
+                    <td class="align-middle">
+                      <img src="frontend/img/closed.png" width="20px">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="member mt-3">
+              <h2>Add Vehicle & Accesories</h2>
+              <form class="form-inline">
+                <label for="inputUsername" class="sr-only">Name</label>
+                <input type="text" name="inputUsername" id="inputUsername" class="form-control mb-2 mr-sm-2" placeholder="Address"/>
+
+                <label for="inputPayment" class="sr-only">Payment</label>
+                <select name="inputPayment" id="inputPayment" class="custom-select mb-2 mr-sm-2">
+                  <option value="payment" selected>Payment</option>
+                  <option value="payment" >BRI</option>
+                  <option value="payment" >BNI</option>
+                  <option value="payment" >BCA</option>
+                  <option value="payment" >Mandiri</option>
+                </select>
+
+                <label for="dateCheckout" class="sr-only">Checkout Now</label>
+                <div class="input-group mb-2 mr-sm-2">
+                <input type="text" name="dateCheckout" id="dateCheckout" class="form-control datepicker" placeholder="Date Checkout"/>
+                </div>
+
+                <button type="submit" class="btn btn-add-now mb-2 px-4">
+                  Checkout Now
+                </button>
+              </form>
+              <h3 class="mt-2 mb-0">Note</h3>
+              <p class="disclaimer mb-0">You can only add vehicles or accessories that have been registered with nomads</p>
+            </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card card-details card-right">
+        <h2>Checkout Informations</h2>
+        <table class="vehicle-informations">
+          <tr>
+            <th width="50%">Items</th>
+            <td width="50%" class="text-right">3 Items</td>
+          </tr>
+          <tr>
+            <th width="50%">Vehicle</th>
+            <td width="50%" class="text-right">$ 4.645,54</td>
+          </tr>
+          <tr>
+            <th width="50%">Accesories</th>
+            <td width="50%" class="text-right">$ 381,83
+            </td>
+          </tr>
+          <tr>
+            <th width="50%">Sub Price</th>
+            <td width="50%" class="text-right">$ 5.040,55</td>
+          </tr>
+          <tr>
+            <th width="50%">Total (+ Discount)</th>
+            <td width="50%" class="text-right text-total">
+              <span class="text-blue">$ 4.995,</span>
+              <span class="text-orange">55</span>
+            </td>
+          </tr>
+        </table>  
+        <hr>
+        <h2>Payment Instructions</h2>
+        <p class="payment-instructions">Please complete your payment before to contineu the dream vehicle</p>
+        <div class="bank">
+          <div class="bank-item pd-3 mt-2">
+            <img src="frontend/img/card.png" class="bank-image">
+            <div class="descriptions">
+              <h3>PT.Piaggio.Grup</h3>
+              <p>114590504 <br> Bank Negara Indonesia</p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="bank-item pd-3 mt-2">
+              <img src="frontend/img/card.png" class="bank-image">
+              <div class="descriptions">
+                <h3>PT.Piaggio.Grup</h3>
+                <p>123828481234 <br> Bank Mandiri</p>
+              </div>
+            <div class="clearfix"></div>
+            <div class="bank-item pd-3 mt-2">
+              <img src="frontend/img/card.png" class="bank-image">
+              <div class="descriptions">
+                <h3>PT.Piaggio.Grup</h3>
+                <p>1238221411234 <br> Bank Republik Indonesia</p>
+              </div>
+            <div class="clearfix"></div>
+            <div class="bank-item pd-3 mt-2">
+              <img src="frontend/img/card.png" class="bank-image">
+              <div class="descriptions">
+                <h3>PT.Piaggio.Grup</h3>
+                <p>8481234 <br> Bank Central Asia</p>
+              </div>
+            <div class="clearfix"></div>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="checkout-container">
+        <a href="success.html" class="btn btn-block btn-checkout-now mt-3 py-2">
+          I have made payment
+        </a>
+      </div>
+      <div class="text-center mt-3">
+        <a href="detail.html" class="text-muted">
+          Cancel Payment
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <label for="newslet-email" class="warna">
+                  Newsletter: Keep Updated with Vespa</label>
+                  <br>
+                <input class="btn-email" type="email" id="newslet-email" name="newslet-email" placeholder="Your Email">
+                <button type="submit" class="btn btn-submit" id="neslet-email"> Submit </button>
+                <br><br>
+                <div class="vehicles-button mt-auto">
+                  <a href="#" class="btn btn-piaggio-com btn btn-primary btn-lg btn-block">PIAGGIO.COM</a>
+                  <br><br>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="primary-footer">
+                  <h2>
+                    <a href="mailto:customer.service@id.piaggio.com" class="customer">customer.service@id.piaggio.com</a>
+                  </h2>
+                  <p class="info"><i>Call Us at</i><span class="tel"><i>1500 . 585</i></span>
+                  </p>
+                  <p class="time"><i>08.00 - 17.00 WIB</i></p>
+                  <br>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <p class="copy"><fontsninja-text id="fontsninja-text-161" class="fontsninja-family-variant_sans-serif_700_normal">© 2016 Piaggio Indonesia | </fontsninja-text><a href="/legal"><fontsninja-text id="fontsninja-text-162" class="fontsninja-family-variant_sans-serif_700_normal">Legal Note</fontsninja-text></a></p>
+                <a href="#"><img class="img" src="frontend/img/Untitled-3-01-removebg-preview.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row border-top justify-content-center align-items-center pt-4">
+            <div class="col-auto text-gray-500 font-weight-light">
+              ALL PRODUCT PHOTOS ARE FOR ILLUSTRATIVE PURPOSES ONLY. PRODUCTS SHOWN IN THIS PHOTO MAY BE DIFFERENT FOR EACH COUNTRY OR MAY BE KNOWN BY A DIFFERENT NAME
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="frontend/library/jquery/jquery-3.6.1.min.js"></script>
+    <script src="frontend/library/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="frontend/library/retina/retina.min.js"></script>
+    <script src="frontend/library/xzoom/xzoom.min.js"></script>
+    <script src="frontend/library/gijgo/js/gijgo.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          xoffset: 15
+        });
+        $('.datepicker').datepicker({
+          uilibrary:'bootstrap4',
+          icons:{
+            rightIcons:'<img src="frotend/img/calendar.png"/>'
+          }
+        });
+      });
+    </script>
+</body>
+</html>
